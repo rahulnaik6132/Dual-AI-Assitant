@@ -1,4 +1,4 @@
-# 💎 GemGPT – Dual AI Assistant Extension
+# GemGPT – Dual AI Assistant Extension
 
 **GemGPT** is a lightweight and elegant Microsoft Edge extension that gives you instant access to both **ChatGPT** and **Google Gemini** — all from a single popup.  
 Choose your favorite AI assistant with just one click! 🚀
@@ -20,4 +20,5 @@ Choose your favorite AI assistant with just one click! 🚀
 1. **Clone this repository**
    ```bash
    git clone https://github.com/rahulnaik6132/GemGPT.git
+
 
