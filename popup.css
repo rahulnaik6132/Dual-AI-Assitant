@@ -1,0 +1,101 @@
+/* === Overall popup body === */
+body {
+	margin: 0;
+	width: 320px;
+	height: 300px;
+	background: linear-gradient(135deg, #dbe6f6, #0099ff);
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+/* === Container === */
+.container {
+	background: rgba(255, 255, 255, 0.95);
+	border-radius: 16px;
+	padding: 18px 14px;
+	text-align: center;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+	width: 92%;
+	max-width: 300px;
+	height: 92%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+/* === Main logo === */
+.logo {
+	width: 120px;
+	height: 60px;
+	object-fit: contain;
+	margin: 0 auto 8px auto;
+	display: block;
+	transition: transform 0.3s ease;
+}
+.logo:hover {
+	transform: scale(1.05);
+}
+
+/* === Text === */
+p {
+	font-size: 14px;
+	color: #333;
+	margin: 6px 0 10px 0;
+}
+
+/* Main Name */
+.strong {
+	color: #f90000;
+}
+
+/* === Buttons === */
+.open-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	width: 100%;
+	padding: 9px;
+	margin: 6px 0;
+	border: none;
+	border-radius: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	background: linear-gradient(135deg, #0080ff, #c7cfcf);
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+	transition: all 0.25s ease;
+}
+
+.open-btn:hover {
+	transform: scale(1.04);
+	background: rgb(56, 53, 53);
+	color: white;
+}
+
+/* === Icon inside button === */
+.btn-icon {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+	border-radius: 4px;
+	background: white;
+	padding: 2px;
+}
+
+/* === Footer === */
+footer {
+	font-size: 12px;
+	color: #333;
+	opacity: 0.9;
+	/* margin-top: 8px; */
+	/* line-height: 1.4; */
+}
+
+footer strong {
+	color: #4b0082;
+}

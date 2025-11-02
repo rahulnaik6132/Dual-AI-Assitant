@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "GemGPT - Dual AI Assistant",
+    "version": "1.0",
+    "description": "Quick access to ChatGPT and Google Gemini directly from Edge.",
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*",
+        "https://gemini.google.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
