@@ -11,7 +11,6 @@ Choose your favorite AI assistant with just one click! 🚀
 - 🎨 Clean, modern UI with gradient background
 - 💻 Works on **Microsoft Edge**, **Chrome**, and other Chromium-based browsers
 - 🪄 No permissions required — safe and lightweight
-- 🔗 Opens in new tabs using `target="_blank"`
 
 ---
 
@@ -30,6 +29,7 @@ For more content on SQL, data analysis, and other data-related topics, make sure
 - **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/rahul-r-naik-435614287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 Thank you for your support, and I look forward to connecting with you!
+
 
 
 
